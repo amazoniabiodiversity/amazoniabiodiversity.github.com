@@ -1,115 +1,159 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <!--Edit the title of the page-->
-    <title>Your page title goes here</title>
+    <title>Dimensions of Amazonian Biodiversity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v2/themes/css/cartodb.css" />
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://libs.cartodb.com/cartodb.js/v2/themes/css/cartodb.css" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v2/themes/css/cartodb.ie.css" />
     <![endif]-->
-    <link rel="stylesheet" href="css/makeitresponsive.css">
-    <!--Switch between the different themes changing the stylesheet below - light-theme.css |dark-theme.css -->
-    <link rel="stylesheet" href="css/dark-theme.css">
-    <script src="http://libs.cartocdn.com/cartodb.js/v2/cartodb.js"></script>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
   </head>
+
   <body>
-    
-    <div class="row">
-      <div class="col span2 empty"><p></p></div>
-      <div class="col span12 context subheader">
-        <!--Link to your personal website, your blog or your twitter account-->
-        <p>Map created by <a href="#">{Link to your website}</a></p>
+
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Dimensions of Amazonian Biodiversity</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="">Home</a></li>
+              <li><a href="people.html">People</a></li>
+              <li><a href="links.html">Links</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+
+                  <li class="nav-header">Biotic History</li>
+                  <li><a href="projects/plants.html">Plants</a></li>
+                  <li><a href="projects/butterflies.html">Butterflies</a></li>
+                  <li><a href="projects/birds.html">Birds</a></li>
+                  <li><a href="projects/primates.html">Primates</a></li>
+
+                  <li class="divider"></li>
+                  <li class="nav-header">Earth History</li>
+                  <li><a href="projects/geology.html">Geology</a></li>
+                  <li><a href="projects/climatology.html">Climatology</a></li>
+                  <li><a href="projects/remote_sensing.html">Remote Sensing</a></li>
+                  <li class="divider"></li>
+                  <li><a href="projects/integrative_studies.html">Integrative studies</a></li>
+                </ul>
+              </li>
+              <li class='disabled'><a href="http://amazonianbiodiversity.tumblr.com/" target="_blank">Blog</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
       </div>
-      <div class="col span2 empty"><p></p></div>
     </div>
 
-    <!--In the paragraph below give an introduction to your visualization-->
-    <div class="row">
-      <div class="col span2 empty"><p></p></div>
-      <div class="col span12">
-        <h1>Title of your visualization</h1>
-        <p>An earthquake of magnitude 9.0 occurred March 11, 2012, off the northeastern Pacific coast of Japan. The earthquake was followed by a tsunami which would reach 9.3m or higher at Fukushima Prefecture. <a href=''>Combined, the two claimed almost</a> 20,000 lives in the region of Tohoku and triggered nuclear meltdowns at three reactors in Fukushima nuclear plant.</p>
-      </div>
-      <div class="col span2 empty"><p></p></div>
-    </div>
-    
-    <div class="row">
-      <div class="col span8 map" id="map1"></div>
-      <div class="col span8 map" id="map2"></div>
-    </div>
+    <div class="container">
 
-    <!--Copy and paste the "row" div below a second, third, or fourth time to create content blocks-->
-    <div class="row">
-      <div class="col span2 empty"><p></p></div>
-      <div class="col span12 titleBlock">
-        <h3>Description block</h3>
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <p>The Amazonian Biodiversity project aims to describe Amazonian diversity more finely than ever before, integrating evolutionary analysis with Earth and environmental sciences.  </p>
       </div>
-      <div class="col span2 empty"><p></p></div>
-    </div>
-    <div class="row">
-      <div class="col span2 empty"><p></p></div>
-      <div class="col span12">
-        <p>The size and age of the Cosmos are beyond ordinary human understanding. Lost somewhere between immensity and eternity is our tiny planetary home. In a cosmic perspective, most human concerns seem insignificant, even petty. And yet our species is young and curious and brave and shows much promise. In the last few millennia we have made the most astonishing, unexpected discoveries about the Cosmos and our place within it, explorations that are exhilarating to consider. They remind us that humans have evolved to wonder, that understanding is a joy, that knowledge is prerequisite to survival. I believe our future depends powerfully on how well we understand this Cosmos in which we float like a mote of dust in the morning sky.</p>
+
+      <!-- Main map -->
+      <div class="hero-carousel">
+        <div id="map"></div>
+        <div id="hero-image"></div>
+        <div class="pager">
+            <div class="pagination">
+              <ul>
+                <li class="active frame"><a class="frame" href="#">1</a></li>
+                <li><a class="frame" href="#">2</a></li>
+                <li><a class="frame" href="#">3</a></li>
+                <li><a class="frame" href="#">4</a></li>
+                <li><a class="frame" href="#">5</a></li>
+                <li><a class="frame" href="#">6</a></li>
+                <li><a class="frame" href="#">7</a></li>
+                <li><a class="frame" href="#">8</a></li>
+                <li><a class="frame" href="#">9</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="view-map"></div>
+        <div class="map-title span4">
+          <h4>Dimensions of Amazonian Biodiversity</h4>
+          <p></p>
+          <span></span>
+        </div>
       </div>
-      <div class="col span2 empty"><p></p></div>
-    </div>
-
-    <!--This is an example of a second content block-->
-    <div class="row">
-      <div class="col span2 empty"><p></p></div>
-      <div class="col span12 titleBlock">
-        <h3>Description block 2</h3>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span1"></div>
+        <div class="span6">
+          <h2>About The Amazonian Biodiversity Project</h2>
+          <p>
+Amazonia is Earth's most iconic center of biological diversity and endemism and is, arguably, the most important terrestrial biome due to its contributions to global systems ecology. This project seeks to answer an overarching question in biodiversity science: How was the modern Amazonian biota and its environment assembled across space and time?  We use a comparative approach that integrates across the disciplines of systematics, population biology, ecosystem structure and function, geology, Earth systems modeling and remote sensing, and environmental history. The project also investigates the interlocked relationships between biotic diversity and the ecosystem functions and biogeochemical flows across Amazonia and globally. Our work has strong training and outreach components, including  training of students, development of a major museum exhibit on Amazonia, workshops for K-12 STEM teachers, publications in professional educational journals, and a web portal, The Evolutionary Encyclopedia of Amazonian Biodiversity, that will serve as an informational platform about Amazonian biodiversity and its global importance. 
+</p>
+        </div>
+        <div class="span1"></div>
+        <div class="span4 partners">
+          <h2>Partners</h2>
+          <ul class="partner-links">
+            <li class="fapesp"></li>
+            <li class="nsf"></li>
+            <li class="nasa"></li>
+          </ul>
+        </div>
       </div>
-      <div class="col span2 empty"><p></p></div>
-    </div>
-    <div class="row">
-      <div class="col span2 empty"><p></p></div>
-      <div class="col span12">
-        <p>Unexpected discoveries about the <a href="#">Cosmos and our place</a> within it, explorations that are <a href="#">exhilarating</a> to consider. They remind us that humans have evolved to wonder, that understanding is a joy, that knowledge is prerequisite to survival. I believe our future depends powerfully on how well we understand this.</p>
-      </div>
-      <div class="col span2 empty"><p></p></div>
-    </div>
 
-    <!--Play fair and keep the attributions. If you do, we will love you even more. :)-->
-    <div class="row">
-      <div class="col span2 empty"><p></p></div>
-      <div class="col span12 context footer">
-        <p>Create your maps with ease using <a href="http://cartodb.com">CartoDB</a></p></p>
-      </div>
-      <div class="col span2 empty"><p></p></div>
-    </div>
+      <hr>
 
-    <!--Change the URL below in order to change the map that is being shown.
-        Go to your map in CartoDB, click on share, and copy the URL under the API section
-        Check the cartodb.js documentation for more info
-        http://developers.cartodb.com/documentation/cartodb-js.html-->
-    <script type="text/javascript">
-      var map1,map2;
+      <footer>
+        <p>The Amazonian Biodiversity webpage is run by a consortium of Brazilian and American researchers. For comments and questions, contact our partners through our <a href="">people</a> page</p>
+      </footer>
 
-      cartodb.createVis('map1', 'http://examples.cartodb.com/api/v1/viz/23320/viz.json')
-      .done(function(vis, layers) {
-        map1 = vis.getNativeMap();        
-        cartodb.createVis('map2', 'http://examples.cartodb.com/api/v1/viz/15590/viz.json')
-        .done(function(vis, layers) {
-            map2 = vis.getNativeMap();
-            map1.on('moveend', function(e) {
-              changeMapState(map1, map2)
-            });
-            map2.on('moveend', function(e) {
-              changeMapState(map2, map1)
-            });
-        })
-      })
+    </div> <!-- /container -->
 
-      //Applies the same view from src to tgt map
-      function changeMapState(src,tgt){
-        tgt.setView(src.getCenter(), src.getZoom());
-      }
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="http://libs.cartocdn.com/cartodb.js/v2/cartodb.js"></script>
+    <script src="js/cartodb-carousel.js"></script>
+    <script>
+
 
     </script>
 
