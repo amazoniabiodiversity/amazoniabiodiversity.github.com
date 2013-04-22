@@ -459,13 +459,13 @@
   color: #aaa;
 }
 .links .row div.title {
-  text-align: center;
+  text-align: left;
   margin-left: 10px;
-  margin-right: 30px;
+  margin-right: 10px;
   font-weight: 600;
 }
 .links .row div.link {
-  text-align: center;
+  text-align: left;
   margin-left: 30px;
   margin-right: 10px;
   color: #aaa;
