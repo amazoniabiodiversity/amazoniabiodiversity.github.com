@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dimensions of Amazonian Biodiversity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Tom Conlin" >
+
+    <!-- Le styles -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://libs.cartodb.com/cartodb.js/v2/themes/css/cartodb.css" />
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.../../js/v2/themes/../../css/cartodb.ie.css" />
+    <![endif]-->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Dimensions of Amazonian Biodiversity</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li ><a href="../index.html">Home</a></li>
+              <li><a href="../people.html">People</a></li>
+              <li><a href="../links.html">Links</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+
+                  <li class="nav-header">Biotic History</li>
+                  <li><a href="../projects/plants.html">Plants</a></li>
+                  <li><a href="../projects/butterflies.html">Butterflies</a></li>
+                  <li><a href="../projects/birds.html">Birds</a></li>
+                  <li><a href="../projects/primates.html">Primates</a></li>
+
+                  <li class="divider"></li>
+                  <li class="nav-header">Earth History</li>
+                  <li><a href="../projects/geology.html">Geology</a></li>
+                  <li><a href="../projects/climatology.html">Climatology</a></li>
+                  <li><a href="../projects/remote_sensing.html">Remote Sensing and Modeling</a></li>
+                  <li class="divider"></li>
+                  <li><a href="../projects/integrative_studies.html">Integrative studies</a></li>
+				  <li><a href="../projects/evolutionary_atlas.html">Evolutionary Atlas</a></li>
+                </ul>
+              </li>
+              
+			  <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Meetings<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  	<li class="nav-header">Amazonian&nbsp;Biodiversity</li>
+                  		<li><a href="initialCollaboration.html">São Paulo 2013 March</a></li>
+					<li class="nav-header">Collaborator</li>
+						<li><a href=""></a></li>
+                </ul>
+              </li>            
+              
+              <li class='disabled'><a href="#">Blog</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row page-header">
+          <h1>First Collaborator Meeting 2013, São Paulo</h1>
+      </div>
+
+      <div class="row">
+        <div class="span2"></div>
+        <div class="span8 description">
+		<P><BR></P>
+		<P>During the week of
+			March 4-8 collaborators of our Dimensions of Biodiversity grant held
+			our fist organizational meeting at the headquarters of FAPESP
+			(Fundação de Amparo à Pesquisa do Estado de São Paulo) in São
+			Paulo, Brazil.  FAPESP, along with the US National Science Foundation
+			(NSF), and the National Aeronautics and Space Administration (NASA),
+			is one of our funding partners.  Altogether the meeting involved 30
+			collaborators from Brazil (6 institutions), the United States (8),
+			Canada (1), Great Britain (1), and Argentina (1).  As the title of
+			our grant proposal —<I>Assembly and evolution of the Amazon biota
+			and its environment: an integrated approach—</I> implies, our goal
+			is to integrate research across numerous disciplines in order to
+			document a detailed picture of the evolution of the Amazonian biota
+			and environment, particularly over Plio-Pleistocene times. 
+		</P>
+		<P><BR></P>
+		<P>The first goal of the
+			meeting was for the collaborators to become more acquainted with each
+			other's research and how we might establish integrative activities. 
+			Thus, on the first day we held a public symposium that filled the
+			large auditorium at FAPESP, with most of the audience being students
+			from São Paulo State but many other Brazilian states as well. 
+			Nearly all collaborators spoke about their research within the
+			context of the overall project, and in so doing gave the audience a
+			great overview of the science challenges confronting Amazonian
+			biodiversity and its environment.  
+			The <a href="">program of the symposium</a> is available.
+		</P>
+		<P><BR></P>
+		<P>The symposium paved the
+			way for four days of discussions that had plenary sessions of all
+			collaborators but mostly involved small discussions within and across
+			disciplines.  Through these meetings, research activities were
+			planned for the next one to two years.  
+			</P>
+		<P><BR></P>
+		
+		<P>
+			Finally,
+			we are grateful to FAPESP for making their facilities available to
+			us, and special thanks are due to the FAPESP staff, who made our stay
+			easy and enjoyable. 
+		</P>
+          
+          
+        </div>
+      </div>
+
+
+
+      <div class="row ">
+        <div class="span12">
+          <div class="span2 "></div>
+          <div class="span8 people">
+            <div class="span8">
+              <ul >
+                <li class="first">All Collaborators</li>
+                <li ></li>
+                <li class="last"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      
+    </div> <!-- /container -->
+    
+    
+      <footer>
+        <p>The Amazonian Biodiversity webpage is run by a consortium of Brazilian and American researchers. For comments and questions, contact our partners through our <a href="../people.html">people</a> page</p>
+      </footer>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap-transition.js"></script>
+    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
+    <script src="../js/bootstrap-scrollspy.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-tooltip.js"></script>
+    <script src="../js/bootstrap-popover.js"></script>
+    <script src="../js/bootstrap-button.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+    <script src="../js/bootstrap-carousel.js"></script>
+    <script src="../js/bootstrap-typeahead.js"></script>
+    <script src="http://libs.cartocdn.com/cartodb.js/v2/cartodb.js"></script>
+    <script>
+    </script>
+
+  </body>
+</html>
